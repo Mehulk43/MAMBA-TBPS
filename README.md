@@ -20,8 +20,54 @@ beddings via cross-attention. The final output supports three objectives: relati
 image-text pairs, sensitivity-aware loss for masked word prediction in text, and attribute loss focusing on
 textual attribute representations.
 
-## how to run code
+## How to run code
 
+### Requirements :
+
+
+
+
+### Prepare Datasets
+
+For datasets preparation and download, please refer to [RaSA](https://github.com/Flame-Chasers/RaSa/).
+
+### Pretrained Checkpoint
+- Please download the [pretrained ALBEF Checkpoint](https://storage.googleapis.com/sfr-pcl-data-research/ALBEF/ALBEF.pth).
+
+### Training
+Inside the shell folder there are the script for each training.
+
+To train our model just choose a dataset and do:
+```shell
+# 1. Training on CUHK-PEDES
+bash shell/cuhk_train.sh
+
+# 2. Training on ICFG-PEDES
+bash shell/icfg_train.sh
+
+# 3. Training on RSTPReid
+bash shell/rstp_train.sh
+```
+
+Before training, please update dataset location inside each ```.yaml``` file.
+
+
+### Testing
+
+Inside the shell folder there are the script to test each model.
+
+```shell
+# 1. Testing on CUHK-PEDES
+bash shell/cuhk-eval.sh
+
+# 2. Testing on ICFG-PEDES
+bash shell/icfg-eval.sh
+
+# 3. Testing on RSTPReid
+bash shell/rstp-eval.sh
+```
+
+Before testing, please update the checkpoint location inside each ```.sh``` file.
 
 ## Qualitative results
 

@@ -28,7 +28,7 @@ textual attribute representations.
 
 Fig. 4: Top 25 most common nouns and adjectives
 
-
+![RetrievalImage](mambamars.png)
 Fig. 5: Comparison of top-10 predictions from the baseline and our model shows that our approach performs
 better in multiple cases (e.g., a–d). In example (c), all retrieved images contain bikes, unlike the baseline.
 In (e), despite missing the second rank, our model finds more relevant images overall . In (f), although no

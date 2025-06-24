@@ -39,3 +39,12 @@ exact match is retrieved due to a vague caption, the results remain contextually
 
 **Fig. 5:** Visual comparison of cross-attention maps from the baseline (top) and our model (bottom) using
 Grad-CAM. The attribute loss improves attention consistency and accuracy across words
+
+
+
+
+### Paper Citation
+Please cite following paper if you make use of this code in your research:
+```tex
+Comming soon
+```

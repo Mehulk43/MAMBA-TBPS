@@ -27,7 +27,6 @@ import utils
 from dataset import create_dataset, create_sampler, create_loader
 from models.model_person_search import ALBEF
 from models.tokenization_bert import BertTokenizer
-from models.vit import interpolate_pos_embed
 from optim import create_optimizer
 from scheduler import create_scheduler
 from models.xbert import BertConfig, BertForMaskedLM

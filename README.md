@@ -12,7 +12,7 @@ identity variations are shown—where a single caption might correspond to two v
 but only one is the correct match (highlighted in green), while the incorrect one is marked in red.
 
 ## Architecture
-![MAMBA-TBPS](./architecture.pdf)
+![MAMBA-TBPS](./Architecture.pdf)
 Fig. 2: The proposed architecture takes an image-text pair as input, processed by separate image and text
 encoders, and optimized using contrastive loss. A Masked Autoencoder (MAE) decoder reconstructs the
 masked image patches. The text is also passed through a cross-modal encoder that integrates visual em-

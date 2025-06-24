@@ -23,7 +23,17 @@ textual attribute representations.
 ## How to run code
 
 ### Requirements :
+To install the necessary dependencies for running Vision Mamba, you'll need to build the libraries from the following repository: [https://github.com/hustvl/Vim](https://github.com/hustvl/Vim).  
+You can do this by executing the commands below:
 
+```bash
+git clone https://github.com/hustvl/Vim
+cd Vim
+pip install -e causal-conv1d
+pip install -e mamba-1p1p1
+```
+
+Additionnaly, the training and testing proceess has been run succesfully on tan environemtn with the following dependencies:
 
 
 

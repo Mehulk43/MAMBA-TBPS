@@ -26,15 +26,16 @@ textual attribute representations.
 ## Qualitative results
 
 
-Fig. 4: Top 25 most common nouns and adjectives
+**Fig. 3:** Top 25 most common nouns and adjectives
 
 ![RetrievalImage](mambamars.png)
-Fig. 5: Comparison of top-10 predictions from the baseline and our model shows that our approach performs
+**Fig. 4:** Comparison of top-10 predictions from the baseline and our model shows that our approach performs
 better in multiple cases (e.g., a–d). In example (c), all retrieved images contain bikes, unlike the baseline.
 In (e), despite missing the second rank, our model finds more relevant images overall . In (f), although no
 exact match is retrieved due to a vague caption, the results remain contextually relevant.
 
 
 ![Gradecamcuhk](gradcam-cuhk.png) ![Gradecamicfg](gradcam-icfg.png) ![Gradecamrstp](gradcam-rstp.png)
-Fig. 6: Visual comparison of cross-attention maps from the baseline (top) and our model (bottom) using
+
+**Fig. 5:** Visual comparison of cross-attention maps from the baseline (top) and our model (bottom) using
 Grad-CAM. The attribute loss improves attention consistency and accuracy across words

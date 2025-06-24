@@ -5,7 +5,7 @@ MAMBA-TBPS: An Efficient Attribute-Relation-Sensitive Framework for Text-Based P
 Text-Based Person Search (TBPS) is an emerging cross-modal retrieval task that aims to identify a target individual from an image database using textual description. The challenge lies in bridging the modality gap between visual and textual inputs while addressing inter-identity ambiguity and intra-identity variations. In our proposed MAMBA-TBPS architecture, we integrate the complete loss formulation from the base model—namely, Contrastive Loss, Relation-Aware (RA) Loss, Sensitivity-Aware (SA) Loss, Attribute Loss, and MAE-based Visual Reconstruction Loss. This comprehensive loss design enables our framework to effectively capture fine-grained cross-modal relationships, maintain attribute sensitivity, and enhance visual-textual alignment, ultimately improving retrieval performance. Experimental evaluations on three TBPS benchmarks—CUHK-PEDES, ICFG-PEDES, and RSTPReid—demonstrate that MAMBA-TBPS achieves competitive performance.
 
 
-![ Intra-identity and Inter-identity ](intraandinter(1).png)
+![ Intra-identity and Inter-identity ](intra%20and%20inter%20(1).png)
 Fig. 1: The images on the left (a and b) illustrate intra-identity variations, where different pictures of the
 same individual show changes in appearance due to factors like pose or lighting. On the right (c and d), inter-
 identity variations are shown—where a single caption might correspond to two visually similar individuals,
